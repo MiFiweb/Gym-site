@@ -1,30 +1,183 @@
-h1{
+.header{
+    padding-top: 41px;
+}
+
+.hero{
+    padding-top: 125px;
+    padding-bottom: 325px;
+}
+
+.about{
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.abonement{
+    padding-top: 27px;
+    padding-bottom: 61px;
+}
+
+.coach{
+    padding-top: 134px;
+    padding-bottom: 250px;
+}
+
+.sport-bar{
+    padding-top: 75px;
+    padding-bottom: 57px;
+}
+
+.galery{
+    padding-top: 96px;
+    padding-bottom: 99px;
+}
+
+.contacts{
+    padding-top: 40px;
+    padding-bottom: 126px;
+}
+
+.footer{
+    padding-top: 13px;
+    padding-bottom: 23px;
+}
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.hero-title{
     font-family: Abril Fatface;
     font-size: 140px;
     font-weight: 400;
     line-height: 140px;
     text-align: left;
-
 }
-h2{
+
+.header-nav-list{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-title{
     font-family: Abril Fatface;
     font-size: 48px;
     font-weight: 400;
     line-height: 48px;
     text-align: left;
 }
-.header-nav-list{
-    font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.05em;
-text-align: center;
 
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.about-text{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;     
 }
+
+.abonement-title{
+    font-family: Abril Fatface;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;    
+}
+
+.text-abonement-list-text{
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+.coaches-title{
+    font-family: Abril Fatface;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left; 
+}
+
+.sport-bar-title{
+    font-family: Abril Fatface;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;    
+}
+
+.sport-bar-list-products-text{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;    
+}
+
+.sport-bar-list-products-text-price{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;    
+}
+
+.galery-title{
+    font-family: Abril Fatface;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;    
+}
+
+.contacts-title{
+    font-family: Abril Fatface;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;    
+}
+
+.contact-list-text{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;    
+}
+
+.contacts-list-address{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+
+.footer-nav-list{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;  
+}
+
 .header-tel-link{
     display: flex;
     justify-content: end;
